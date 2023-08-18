@@ -1,0 +1,36 @@
+RECURRENT NEURAL NETWORKS:
+
+    DATA:
+        see the stocklist in dataloader.py, and if u run that file, all the datasets will be dowloaded in the DATA/ folder with
+        plots to visualize. Also u can visualize correlation of feature heatmap when u run this file.
+
+
+    I created 3 RNN models + 1simple NN models
+
+    each of the files RNN.py, GRU.py, LSTM.py and NN.py:
+        -->has a model defined
+        -->a fucntion to train which is called in the main function.
+        -->HYPERPARAMS can be adjusted, and then the model can be trained for various (T,N,H) pairs [WINDOW PRED HIDDEN]
+        --> Then the loss of each epoch along with some plots of training are generated.
+        
+        --> To train on any stock [GOOG,MSFT, TSLA] etc.... (see all stock names in dataloader.py) and year
+            python3 RNN.py GOOG 2007  ...... trains RNN model on GOOG stock from 2007 saves it as MODELS/RNN_GOOG_2007.pkl.
+
+            by default use 2007 always, else u need to download from diff year using dataloader, and then use that year.
+
+        --> Each model also has a test file to that saved model. Usage:
+
+            python3 RNNtest.py GOOG 2007 ALL <from-date> <to-date>
+            python3 RNNtest.py GOOG 2007 TSLA <from-date> <to-date>  (u can give any stock name as 2nd input)
+            python3 RNNtest.py GOOG 2007    [tests on GOOG itself]
+
+            the first arg specifies the trained stock,yr name. THEY MUST BE TRAINED BEFORE FOR USING.
+            Then u can can test that model on any other stock or ALL stocks. the <> <> dates are optional, if not specified 2007-1-1 2022-11-1 are defaulted.
+
+            if u leave out the 3rd argument, then it defaultly tests the trained stock on same stock data as the test-data.
+
+
+    u can do the same for RNN, LSTM, GRU, NN same syntax.
+    
+    
+==>

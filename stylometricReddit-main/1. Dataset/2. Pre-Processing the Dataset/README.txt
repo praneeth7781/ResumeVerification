@@ -1,0 +1,2 @@
+Each of these folders has the raw data (data.txt), and a pre-processed file(proc.txt) with emojis, special characters, URLs removed, and all letters converted to lowercase.
+This is a crude method of pre-processing the data, the code for the preprocessor is there in each folder you can test it by deleting proc.txt then running the code

@@ -1,0 +1,15 @@
+Output of processes.c :
+PID of Process: 50788
+Value of x: 2
+PID of Process: 50789
+Value of x: 7
+Observations : The first two lines of the output correspond to parent process. The next two lines correspond to the child process. The value of x is updated only by the child process. Since the parent and the child processes don't share the stack, the value of x remains 2 in the parent process.
+
+Output of threads.c
+PID of Foo: 50945 
+PthreadID : 139840283694656 
+Value of x: 7 
+PID of Bar: 50945 
+PthreadID : 139840275301952 
+Value of x: 7 
+Observations : Here, both the threads print the same pid, as they are created by the same process. Thread t1 first finishes execution and updates the value of x to 7, as thread t2 sleeps in the meantime. The first three lines of the output correspond to the thread t1. The next three lines correspond to t2. Here, x is a shared variable. Thus, even t2 prints 7 as the value of x.
