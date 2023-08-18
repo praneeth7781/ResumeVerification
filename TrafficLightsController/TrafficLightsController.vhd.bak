@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity TrafficLightsController is
+ port(clk,rst,tr1,tr2 : in std_logic; r,g,b : out std_logic_vector(4 downto 0));
+end TrafficLightsController;
+
+architecture TrafficLightsController_arch of TrafficLightsController is
+begin
+
+end TrafficLightsController_arch;

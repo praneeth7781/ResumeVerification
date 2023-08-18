@@ -1,0 +1,13 @@
+
+State Machine - |TrafficLightsController|cs
+Name cs.l1y cs.l1g cs.l0y cs.l0g cs.l4y cs.l4g cs.l3y cs.l3g cs.l2y cs.l2g 
+cs.l2g 0 0 0 0 0 0 0 0 0 0 
+cs.l2y 0 0 0 0 0 0 0 0 1 1 
+cs.l3g 0 0 0 0 0 0 0 1 0 1 
+cs.l3y 0 0 0 0 0 0 1 0 0 1 
+cs.l4g 0 0 0 0 0 1 0 0 0 1 
+cs.l4y 0 0 0 0 1 0 0 0 0 1 
+cs.l0g 0 0 0 1 0 0 0 0 0 1 
+cs.l0y 0 0 1 0 0 0 0 0 0 1 
+cs.l1g 0 1 0 0 0 0 0 0 0 1 
+cs.l1y 1 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/simulation/modelsim
+Etb
+Z1 w1650019818
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8C:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/tb.vhd
+Z5 FC:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/tb.vhd
+l0
+L4 1
+V[FIaMSMkT9S8JU3<Eh3e>1
+!s100 cSm_i^60[D@O`YYbIZ24G3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1650019941
+!i10b 1
+Z8 !s108 1650019941.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/tb.vhd|
+!s107 C:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/tb.vhd|
+!i113 1
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Atb_arch
+R2
+R3
+DEx4 work 2 tb 0 22 [FIaMSMkT9S8JU3<Eh3e>1
+!i122 1
+l24
+L7 43
+VnSf8Uh2a;b;WGThGoAPaW3
+!s100 O6m95KkTV]zh2LEmoDj@a3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 C:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/tb.vhd|
+!i113 1
+R10
+R11
+Etrafficlightscontroller
+Z13 w1647777891
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+!i122 0
+R0
+Z16 8C:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/TrafficLightsController.vhd
+Z17 FC:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/TrafficLightsController.vhd
+l0
+L5 1
+V7CKIQo[RRASH0^Yii4E:A1
+!s100 >aoJm8]kJjTCzB?e@81TD0
+R6
+31
+R7
+!i10b 1
+Z18 !s108 1650019940.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/TrafficLightsController.vhd|
+Z20 !s107 C:/Users/adity/OneDrive/Documents/CS 232 Lab 7/TrafficLightsController/TrafficLightsController.vhd|
+!i113 1
+R10
+R11
+Atrafficlightscontroller_arch
+R14
+R15
+R2
+R3
+DEx4 work 23 trafficlightscontroller 0 22 7CKIQo[RRASH0^Yii4E:A1
+!i122 0
+l19
+L9 400
+VA?FVoX>4<9DFFX]gR9^S81
+!s100 fe`;Q5XjC_lLJ0GmVRS_30
+R6
+31
+R7
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R10
+R11

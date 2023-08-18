@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity tb is
+end tb;
+
+architecture tb_arch of tb is
+
+component TrafficLightsController is
+ port(clk,rst,tr1,tr4 : in std_logic; r,g,y : out std_logic_vector(4 downto 0));
+end component;
+
+begin
+
+end tb_arch;
